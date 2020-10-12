@@ -11,9 +11,9 @@ class Saved extends Component {
     books: []
   };
 
-  componentDidMount() {
-    this.getSavedBooks();
-  }
+  // componentDidMount() {
+  //   this.getSavedBooks();
+  // };
 
   getSavedBooks = () => {
     API.getSavedBooks()
@@ -24,6 +24,7 @@ class Saved extends Component {
       )
       .catch(err => console.log(err));
   };
+
 
   handleBookDelete = id => {
     API.deleteBook(id).then(res => this.getSavedBooks());
@@ -38,7 +39,7 @@ class Saved extends Component {
               <h1 className="text-center">
                 <strong>Google Books Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-center">Search and Save Books</h2>
             </Jumbotron>
           </Col>
         </Row>
