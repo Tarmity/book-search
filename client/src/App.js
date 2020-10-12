@@ -1,19 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Saved from "./pages/Saved";
+import NoMatch from "./pages/NoMatch";
+import Nav from "./components/Nav";
 
 function App() {
-  
-  
-  
   return (
-    <div> 
-      <form>
-        <input type="text"></input>
-        <button type="submit">Add Book</button>
-      </form>
-    </div>
+    <Router>
+      <div className="bg-secondary">
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/saved" component={Saved} />
+          <Route component={NoMatch} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-
 export default App;
- 
