@@ -1,29 +1,35 @@
-# Create React Express App
+# Google Book Search
+![License](https://img.shields.io/github/license/tarmity/budget-tracker)
 
-## About This Boilerplate
+## Description
+  * This repository is where I developed the Book Search. Not only do I work on code and issues here. I also publish the latest updates and functions. This source code is avaialable to everyone under the Free Software Foundation, Inc. http//fsf.org/.
+  
+  ![img](https://github.com/Tarmity/book-search/blob/main/client/public/img/bookSearch.png?raw=true)
+  
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributing](#Contributing)
+  * [Questions](#Questions)
+  
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+  ## Installation
+  To install necessary dependencies, run the following command:
+  
+    npm install
 
-## Starting the app locally
+  ## Usage
+  To use the Book Search, simply go the this link (https://arcane-plains-19855.herokuapp.com/) and test it out. You can also download or clone the repository and lanch the app from you own computer. 
+  
+  
+  ## License
+  * MIT
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+  ## Contributing
+  This repo was contributed by Tarmity Flassman
 
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+  ## Questions
+  * If you have any questions, feel free to contact me via email: tarmity.flassman@gmail.com
+  * My GitHub profile: https://github.com/tarmity
