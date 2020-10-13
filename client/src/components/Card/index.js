@@ -1,8 +1,9 @@
 import React from "react";
+import './style.css'
 
 function Card({ icon, title, children }) {
   return (
-    <div className="card mt-4 p-3 mb-2 bg-dark text-white">
+    <div className="card mt-4 p-3 mb-2 Card">
       <div className="card-header">
         <h3>
           <strong>

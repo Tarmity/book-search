@@ -4,11 +4,12 @@ import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import './style.css';
 
 function App() {
   return (
     <Router>
-      <div className="bg-secondary">
+      <div className="back">
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
