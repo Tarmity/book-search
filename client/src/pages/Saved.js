@@ -11,9 +11,9 @@ class Saved extends Component {
     books: []
   };
 
-  // componentDidMount() {
-  //   this.getSavedBooks();
-  // };
+  componentDidMount() {
+    this.getSavedBooks();
+  };
 
   getSavedBooks = () => {
     API.getSavedBooks()

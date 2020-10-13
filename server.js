@@ -17,7 +17,7 @@ app.use(routes);
 
 // Define API routes here
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebook", 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", 
   {
     useCreateIndex: true,
     useNewUrlParser: true
