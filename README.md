@@ -21,7 +21,7 @@
     npm install
 
   ## Usage
-  To use the Book Search, simply go the this link (https://arcane-plains-19855.herokuapp.com/) and test it out. You can also download or clone the repository and lanch the app from you own computer. 
+  To use the Book Search, simply go the this link (https://arcane-plains-19855.herokuapp.com/) and test it out. You can clone the repository and develop the app to your style. 
   
   
   ## License
